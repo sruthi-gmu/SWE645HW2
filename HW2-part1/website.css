@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.top {
+	padding: 20px;
+	color:rgb(60, 60, 60);
+}
+
+
+.menu {
+  padding-top: 60px;
+  float:left;
+  width:25%;
+  text-align:center;
+  font-size: 30px;
+}
+.menu img:hover {
+	opacity: .5;
+  filter: alpha(opacity=100);
+}
+.menu a {
+  background-color:white;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:rgb(60, 60, 60);
+}
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.center {
+  float:left;
+  width:75%;
+  padding:10px;
+	color:rgb(60, 60, 60);
+}
+.left {
+  width:30%;
+  float: left;
+
+}
+.right {
+  width:40%;
+  float: left;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .menu, .center, .right,div,div img {
+    width:100%;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.intro  {
+  height: auto;
+}
+
+.survey a {
+  color :black;
+  text-align: left;
+  font-size: 30px;
+  padding-left: 20px;
+
+}
+.survey a:hover {
+  color: green;
+  background-color: #FFCC33;
+}
+
+.info ul {
+  padding-left : 50px;
+  padding-right : 50px;
+
+
+}
+.info h2 {
+  color:black;
+  padding-left: 20px;
+
+}
+
+
+
+
+input[type=text], select, textarea, input[type=email],input[type=url],input[type=date],input[type=list]{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+form {
+    border: 2px solid blue;
+  border-radius: 4px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+    color: green;
+}
+
+input[type=submit],input[type=button] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:center;
+}
+
+input[type=submit]:hover,input[type=button]:hover {
+  background-color: #FFCC33;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.row {
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    align-content: center;
+  }
+}
+
+
+.heading h1 {
+  style="font-color:black; font-size:30px;
+  border: none;
+  border-radius: 4px;
+  text-align: left;
+  padding: 20px;
+}
+p {
+  /* padding: 20px; */
+  font-size:20px;
+  padding-top :20px;
+  padding-bottom :10px;
+  padding-left : 20px;
+  padding-right : 20px;
+
+}
+
+
+.container h1 {
+    color:blue;
+    text-align:center;
+    border-style: solid;
+    border-width: 5px;
+    border-color:blue;
+    padding: 10px;
+
+  }
+
+  .foot {
+  float: left;
+  padding: 5px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  width:100%;
+}
+
+.sec1{
+  width: 30%;
+}
+.sec3 {
+  width: 40%;
+}
+.sec3 img {
+  height: 180px;
+  width: 300px;
+
+}
+
+.sec2 {
+  width: 30%;
+}
+.foot:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.info li {
+  background-color:#FFCC33 ;
+}
+.logo {
+  float: right;
+
+}
+.logo img {
+  height: 100px;
+}

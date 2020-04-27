@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>survey</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="website.css">
+</head>
+<body>
+<div class="container">
+  <h1> Survey </h1>
+  <form method = "post" action = "" autocomplete="on">
+
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" id="fname">First Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname" id="lname">Last Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="lastname" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="address"> Street address</label>
+      </div>
+      <div class="col-75">
+        <input type="text"  name="street" required>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="address"> City:</label>
+      </div>
+      <div class="col-75">
+        <input type="text"  name="city" required>
+      </div>
+    </div>
+
+    <div class="row">
+    <div class="col-25">
+      <label for="country">State</label>
+    </div>
+    <div class="col-75">
+       <input type="text"  name="state" required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="address"> Zip:</label>
+    </div>
+    <div class="col-75">
+      <input type="text"  name="zip" required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="telephone" id="telephone"> Telephone Number</label>
+    </div>
+    <div class="col-75">
+      <input type="text"  name="telephone" required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="email" id="email"> E-mail</label>
+    </div>
+    <div class="col-75">
+      <input type="email" name="emailaddress" placeholder ="example@gmail.com" required>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="date" id="date"> Date of Survey:</label>
+    </div>
+    <div class="col-75">
+      <input type="date" name="survey date" required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="things"> Things you liked:</label>
+    </div>
+    <div class="col-75">
+        <label class="checkbox"> <input type="checkbox"name="thingsliked">Students</label>
+       <label class="checkbox"> <input type="checkbox" name="thingsliked">Location</label>
+       <label class="checkbox"> <input type="checkbox" name="thingsliked">Campus</label>
+       <label class="checkbox"> <input type="checkbox" name="thingsliked">Atmosphere</label>
+       <label class="checkbox"> <input type="checkbox" name="thingsliked">Dorm rooms</label>
+       <label class="checkbox"> <input type="checkbox" name="thingsliked">Sports</label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="date">How did you become interested in this university:</label>
+    </div>
+    <div class="col-75">
+      <label class="radio"> <input type="radio" name="interest" checked>Friends</label>
+      <label class="radio"> <input type="radio" name="interest">Television</label>
+      <label class="radio"> <input type="radio" name="interest">internet</label>
+      <label class="radio"> <input type="radio" name="interest">Other</label>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="date"> How likely you recommend this school</label>
+    </div>
+    <div class="col-75">
+      <input list="likelihood" name="likelihood">
+        <datalist id="likelihood">
+         <option value="Very likely">
+         <option value="Likely">
+         <option value="Unlikely">
+       </datalist>
+    </div>
+  </div>
+  
+  <div class="row">
+      <div class="col-25">
+        <label for="data" id ="datainput">Raffle (Enter ten numbers seperated by commas):</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="data" name="data" required>
+      </div>
+    </div>
+      
+  <div class="row">
+    <div class="col-25">
+      <label for="comments"> Comments</label>
+    </div>
+    <div class="col-75">
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+       Enter text here...</textarea>
+    </div>
+  </div>
+
+  <div class="row">
+      <input type="submit" value="Submit">
+      <input type="button" value="Cancel">
+  </div>
+
+    
+
+</div>
+</div>
+</body>
+</html>
